@@ -16,24 +16,34 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script type="text/javascript" src="./assets/javascript/app.js"></script>
-
+<link rel="stylesheet" href="./assets/css/style.css" text>
 
 <body>
 
-<div class="container">
+<div id="container">
 
-	<div class="header">
-		<h1>Totally Trivial Trivia!</h1>
-	</div>
+	<div id="title"><h1>Totally Trivial Trivia!</h1></div>
 
-	<div>
-		<h2>Time Remaining: <span class="timer"></span></h2>
-	</div>
+		<div>
+			<button id="start-game-button">Start</button>
+			<h2>Time Remaining: <span class="timer"></span></h2>
+		</div>
 
-	<div>
-		<h2>hello<span class="questions"></span></h2>
-	</div>
+		<div class="row">
+			<div id="questionsBox">
+				<h2><span id="questions"></span></h2>
+				<button id="options" type="button" value="1"><span class="opt1"></span></button>
+				<button id="options" type="button" value="1"><span class="opt2"></span></button>
+				<button id="options" type="button" value="1"><span class="opt3"></span></button>
+				<button id="options" type="button" value="1"><span class="opt4"></span></button>
+			</div>
+			
+			
+			<img src="assets/images/squirtle.gif">
 
+
+		</div>
+	
 	<div>
 		<span class="answers"></span>
 	</div>

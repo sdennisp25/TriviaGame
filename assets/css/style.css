@@ -1,0 +1,61 @@
+#container {
+	box-sizing: border-box;
+	border: 4px solid black;
+	padding: 10px;
+	margin: auto;
+	margin-top: 3%;
+	width: 1000px;
+	background: rgb(255, 255, 255, 0.7);
+	border-radius: 30px;
+}
+
+#start-game-button {
+	width: 100%;
+	height: 50px;
+}
+
+#questionsBox {
+	box-sizing: border-box;
+	padding: 5px;
+	width: 50%;
+	height: 400px;
+	float: left;
+}
+
+#title {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 100px;
+	margin-bottom: 30px;
+}
+
+#options {
+	width: 97%;
+	height: 50px;
+}
+
+.row {
+	border: 2px solid black;
+	padding: 10px;
+}
+
+img {
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+
+body {
+	box-sizing: border-box;
+	background-image:url(../images/pikachu.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+
+h2 {
+	text-align: center;
+}
